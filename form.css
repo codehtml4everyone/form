@@ -1,0 +1,165 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+
+}
+
+img {
+
+	display: flex;
+	width: 100px;
+	height: 75px;
+	flex-direction: column;
+
+
+}
+
+body {
+	font-family: sans-serif;
+	font-weight: 400;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to bottom right, #27c6da, #5b6cc0);
+
+}
+
+.container {
+	width: 500px;
+
+	box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+	background-color: #fff;
+
+}
+
+.signup-top {
+	padding: 40px 40px 20px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.signup-top::before {
+	content:"" ;
+	position: absolute;
+	height: 45px;
+	bottom: -22px;
+	left: 0px;
+	right: 0;
+	transform: skewY(-5deg);
+	background-color: #3a99d0;
+}
+
+
+
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 22px;
+	margin-top: 15px;
+	color: #3a99d0;
+} 
+
+.inputs{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+
+}
+
+p {
+	font-size: 14px;
+	color: #4e585f ;
+}
+
+span {
+	color: #3a99d0;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+input  {
+	font-size: 14px;
+	font-weight: 500;
+	padding: 4px 0;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #e4f0f6 ;
+	transition: 500ms ease all;
+
+}
+
+
+.inputss {
+	font-size: 14px;
+	font-weight: 500;
+	padding: 4px 0;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #e4f0f6 ;
+	transition: 500ms ease all;
+
+}
+
+
+input:focus{
+	outline: none;
+	box-shadow: 0 1px 0 0 #88d9fc;
+	border-color: #88d9fc;
+}
+
+input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	margin-right: 16px;
+}
+input[type="checkbox"]:focus {
+	outline: none;
+	box-shadow: none;
+	border-color: none;
+
+}
+
+button {
+	padding: 15px 60px;
+	border-radius: 30px;
+	font-weight: 600;
+	border: none;
+	color: #fff;
+	background-color: #3a99d0;
+	margin-right: 16px;
+	transition: 500ms ease all;
+}
+
+button:hover {
+ 	background-color: #1f6b97;
+ 	transform: scale(1);
+ }
+
+ h3 {
+ 	font-weight: 600;
+ 	font-size: 13px;
+ }
+
+ul {
+	display: flex;
+	margin-top: 16px;
+	list-style: none;
+}
+
+li{
+	margin-right: 40px;
+	font-size: 24px;
+	cursor: pointer;
+}
+li:last-child {
+	margin-right: 0;
+}
+
+
